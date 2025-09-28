@@ -68,4 +68,4 @@ ENV NODE_ENV=production
 
 # Run the application
 # The "start" command tells the worker to connect to LiveKit and begin waiting for jobs.
-CMD [ "pnpm", "start" ]
+CMD ["node", "server.js"]
